@@ -8,10 +8,14 @@ type Query {
   ): Feed!
 }
 
+""" You have to re-run server, yarn dev, whenever you change this file """
 type Feed {
   id: ID!
   links: [Link!]!
   count: Int!
+  # ... my trials below
+  users: [User!] 
+  signups: [AuthPayload]
 }
 
 type Mutation {
