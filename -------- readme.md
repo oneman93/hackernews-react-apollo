@@ -8,7 +8,8 @@ yarn start
 # start server
 cd server
 yarn dev
+(or yarn start)
 
 
-# Read up to:
-The first thing to note about the Playground is 
+# I've read up to:
+Mutations: Creating Links
